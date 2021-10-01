@@ -1,6 +1,6 @@
 import React from "react";
 import ResourceList from "./ResourceList";
-import employees from "../employees";
+import employees from "../../employees";
 
 function ResourceListSection() {
   return (

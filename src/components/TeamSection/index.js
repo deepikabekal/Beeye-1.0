@@ -1,9 +1,8 @@
 import React from "react";
-import ResourceListSection from "./ResourceListSection";
-import "./resourcesection.css";
+import ResourcePlanning from "./ResourcePlanning";
 
 function TeamSection() {
-  return <ResourceListSection />;
+  return <ResourcePlanning />;
 }
 
 export default TeamSection;
