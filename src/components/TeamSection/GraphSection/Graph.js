@@ -6,7 +6,11 @@ function Graph() {
   return (
     <div className="graph-div">
       {dates.map((item) => (
-        <Column key={item.date} />
+        <Column
+          key={item.date}
+          barFillColor={item.color}
+          barFillPercent={item.fill}
+        />
       ))}
     </div>
   );
