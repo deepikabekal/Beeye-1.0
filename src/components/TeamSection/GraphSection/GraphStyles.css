@@ -37,4 +37,12 @@
 
 .graph-div {
   display: flex;
+  /* color : #f36181 */
+}
+
+.date-div {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  color: var(--greysMed01);
 }

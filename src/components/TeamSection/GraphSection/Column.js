@@ -2,6 +2,7 @@ import React from "react";
 import Button from "./Button";
 
 function Column(props) {
+  const fontColor = "#F27633";
   return (
     <div className="col-bar">
       <div
@@ -11,6 +12,13 @@ function Column(props) {
         }}
       ></div>
       <Button />
+      <div
+        className="date-div"
+        style={{ color: props.date === 10 && fontColor }}
+      >
+        <span>{props.date}</span>
+        <span>{props.month}</span>
+      </div>
     </div>
   );
 }

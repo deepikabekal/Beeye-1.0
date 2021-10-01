@@ -10,6 +10,8 @@ function Graph() {
           key={item.date}
           barFillColor={item.color}
           barFillPercent={item.fill}
+          date={item.date}
+          month={item.month}
         />
       ))}
     </div>

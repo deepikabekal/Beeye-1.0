@@ -33,7 +33,7 @@ const dates = [
     date: 5,
     month: "Mar",
     fill: 100,
-    color: "#EF3059"
+    color: "#f36181"
   },
   {
     date: 6,
@@ -63,7 +63,7 @@ const dates = [
     date: 10,
     month: "Mar",
     fill: 100,
-    color: "#EF3059"
+    color: "#f36181"
   },
   {
     date: 11,
