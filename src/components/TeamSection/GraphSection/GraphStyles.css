@@ -1,8 +1,14 @@
+/* graph section styles */
 .section-div {
   margin: 20px;
   background-color: var(--greysLight02);
 }
 
+.graph-div {
+  display: flex;
+}
+
+/* graph increase and decrease button styles */
 .inc-dec-btn {
   border: 1px solid var(--greysMed01);
   border-radius: 5px;
@@ -14,12 +20,18 @@
 .icon-color {
   color: var(--greysMed01);
 }
+.graph-buttons {
+  display: flex;
+  flex-direction: column;
+  padding: 5px;
+}
+
+/* column styles */
 
 .bar {
   width: 30px;
   height: 100px;
   padding: 5px;
-  /* background-color: linear-gradient(50% red, 50% var(--baseLight20)); */
 }
 
 .col-bar {
@@ -29,20 +41,25 @@
   align-items: center;
 }
 
-.graph-buttons {
-  display: flex;
-  flex-direction: column;
-  padding: 5px;
-}
-
-.graph-div {
-  display: flex;
-  /* color : #f36181 */
-}
-
 .date-div {
   display: flex;
   flex-direction: column;
   text-align: center;
   color: var(--greysMed01);
+}
+
+/* time sheet component styles */
+
+.timesheet-section {
+  display: flex;
+  flex-direction: column;
+}
+
+.chevron-btns {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+.date-span {
 }

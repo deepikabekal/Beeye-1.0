@@ -8,10 +8,14 @@ import {
 
 function TimeSheet() {
   return (
-    <div>
+    <div className="timesheet-section">
       <div>
-        <Button icon1={faChevronLeft} icon2={faChevronRight} />
-        <span>11/11/2020 - 11/11/2020</span>
+        <Button
+          icon1={faChevronLeft}
+          icon2={faChevronRight}
+          divClass="chevron-btns"
+        />
+        <span className="date-span">11/11/2020 - 11/11/2020</span>
       </div>
       <BudgetInfo />
     </div>
