@@ -7,7 +7,7 @@ import "./header.css";
 
 function Header() {
   return (
-    <header>
+    <header className="div-border">
       <div className="inline-fx align-center">
         <img
           src="../../assets/images/logo.png"

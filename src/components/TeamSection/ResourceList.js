@@ -2,13 +2,13 @@ import React from "react";
 
 function ResourceList(props) {
   return (
-    <div>
-      <div>
+    <div className="resource-list-div div-border">
+      <div className="resource-img-div">
         <img src={props.imageURL} alt="employee of the company" />
       </div>
-      <div>
-        <p>{props.employeeName}</p>
-        <p>{props.designation}</p>
+      <div className="resource-info-div">
+        <p className="resource-p-tag">{props.employeeName}</p>
+        <p className="resource-p-tag grayed-text">{props.designation}</p>
       </div>
     </div>
   );

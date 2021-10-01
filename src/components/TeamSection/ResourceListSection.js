@@ -7,6 +7,7 @@ function ResourceListSection() {
     <div>
       {employee.slice(1).map((item) => (
         <ResourceList
+          key={item.id}
           imageURL={item.imageURL}
           employeeName={item.employeeName}
           designation={item.designation}
