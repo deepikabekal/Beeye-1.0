@@ -1,10 +1,15 @@
 import React from "react";
 import Button from "./Button";
 
-function Column() {
+function Column(props) {
   return (
     <div className="col-bar">
-      <div className="bar"></div>
+      <div
+        className="bar"
+        style={{
+          backgroundColor: `linear-gradient(${props.barFillPercent},${props.barFillColor}s)`
+        }}
+      ></div>
       <Button />
     </div>
   );

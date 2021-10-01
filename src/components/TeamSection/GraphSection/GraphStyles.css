@@ -19,7 +19,7 @@
   width: 30px;
   height: 100px;
   padding: 5px;
-  background-color: var(--baseLight20);
+  background-color: linear-gradient(50% red, 50% var(--baseLight20));
 }
 
 .col-bar {
