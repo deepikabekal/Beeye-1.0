@@ -1,4 +1,4 @@
-const employee = [
+const employees = [
   {
     id: 1,
     imageURL: "../assets/images/employee-1.png",
@@ -43,4 +43,4 @@ const employee = [
   }
 ];
 
-export default employee;
+export default employees;
