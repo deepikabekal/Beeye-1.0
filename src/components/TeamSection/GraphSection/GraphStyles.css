@@ -1,11 +1,17 @@
 /* graph section styles */
 .section-div {
+  display: flex;
+  justify-content: space-between;
   margin: 20px;
   background-color: var(--greysLight02);
+  overflow: auto;
 }
 
 .graph-div {
   display: flex;
+  padding: 20px 0;
+  /* flex-wrap: wrap; */
+  /* width: 80%; */
 }
 
 /* graph increase and decrease button styles */
@@ -17,7 +23,7 @@
   margin: 4px;
 }
 
-.icon-color {
+.graph-btn-icon {
   color: var(--greysMed01);
 }
 .graph-buttons {
@@ -29,13 +35,13 @@
 /* column styles */
 
 .bar {
-  width: 30px;
+  width: 25px;
   height: 100px;
   padding: 5px;
 }
 
 .col-bar {
-  padding: 10px;
+  /* padding: 3px; */
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -54,12 +60,31 @@
   display: flex;
   flex-direction: column;
 }
+.timesheet-btn-div {
+  padding: 5px;
+}
 
-.chevron-btns {
-  display: flex;
-  justify-content: space-between;
-  padding: 10px;
+.budget-btn-icon {
+  color: var(--mediumGray);
 }
 
 .date-span {
+  color: var(--mediumGray);
+}
+
+.budget-div {
+  display: flex;
+  flex-direction: column;
+  padding: 5px;
+  color: var(--darkOrange);
+}
+
+.budget-list {
+  margin: 5px;
+}
+
+.budget-item {
+  display: flex;
+  justify-content: space-between;
+  color: var(--baseDark01);
 }

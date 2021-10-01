@@ -9,13 +9,18 @@ import {
 function TimeSheet() {
   return (
     <div className="timesheet-section">
-      <div>
+      <div className="timesheet-btn-div">
         <Button
-          icon1={faChevronLeft}
-          icon2={faChevronRight}
-          divClass="chevron-btns"
+          icon={faChevronLeft}
+          btnClass="inc-dec-btn"
+          iconClass="budget-btn-icon"
         />
         <span className="date-span">11/11/2020 - 11/11/2020</span>
+        <Button
+          icon={faChevronRight}
+          btnClass="inc-dec-btn"
+          iconClass="budget-btn-icon"
+        />
       </div>
       <BudgetInfo />
     </div>

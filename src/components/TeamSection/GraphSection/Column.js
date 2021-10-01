@@ -13,8 +13,16 @@ function Column(props) {
         }}
       ></div>
       <div className="graph-buttons">
-        <Button btnClass="inc-dec-btn" icon={faPlus} iconClass="icon-color" />
-        <Button btnClass="inc-dec-btn" icon={faMinus} iconClass="icon-color" />
+        <Button
+          btnClass="inc-dec-btn"
+          icon={faPlus}
+          iconClass="graph-btn-icon"
+        />
+        <Button
+          btnClass="inc-dec-btn"
+          icon={faMinus}
+          iconClass="graph-btn-icon"
+        />
       </div>
       <div
         className="date-div"

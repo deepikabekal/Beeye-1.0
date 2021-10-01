@@ -8,14 +8,18 @@ function BudgetInfo() {
     { name: "Planifié sur cette tâche", time: "2 h" }
   ];
   return (
-    <div>
-      {budgetData.map((item, index) => (
-        <div>
-          <p>{item.name}</p>
-          <p>{item.time}</p>
-        </div>
-      ))}
-    </div>
+    <ul className="budget-div">
+      {budgetData.map(function (item, index) {
+        return (
+          <li className="budget-list" key={index}>
+            <div className="budget-item">
+              <span>{item.name}</span>
+              <span>{item.time}</span>
+            </div>
+          </li>
+        );
+      })}
+    </ul>
   );
 }
 
