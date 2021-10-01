@@ -1,15 +1,15 @@
 import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faPlus, faMinus } from "@fortawesome/free-solid-svg-icons";
+//import { faPlus, faMinus, faChevronLeft, faChevronRight } from "@fortawesome/free-solid-svg-icons";
 
-function Button() {
+function Button(props) {
   return (
-    <div className="button-set">
-      <button type="button" className="inc-dec-btn">
-        <FontAwesomeIcon icon={faPlus} className="icon-color" />
+    <div className={props.divClass}>
+      <button type="button" className={props.btnClass}>
+        <FontAwesomeIcon icon={props.icon1} className={props.iconClass} />
       </button>
-      <button type="button" className="inc-dec-btn">
-        <FontAwesomeIcon icon={faMinus} className="icon-color" />
+      <button type="button" className={props.btnClass}>
+        <FontAwesomeIcon icon={props.icon2} className={props.iconClass} />
       </button>
     </div>
   );
