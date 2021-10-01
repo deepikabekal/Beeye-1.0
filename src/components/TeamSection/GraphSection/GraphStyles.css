@@ -1,14 +1,40 @@
 .section-div {
+  margin: 20px;
   background-color: var(--greysLight02);
 }
 
 .inc-dec-btn {
   border: 1px solid var(--greysMed01);
   border-radius: 5px;
-  width: 32px;
-  height: 32px;
+  width: 30px;
+  height: 30px;
 }
 
 .icon-color {
   color: var(--greysMed01);
+}
+
+.bar {
+  width: 30px;
+  height: 100px;
+  padding: 5px;
+  background-color: var(--baseLight20);
+}
+
+.col-bar {
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.button-set {
+  display: flex;
+  flex-direction: column;
+  padding: 5px;
+}
+
+.graph-div {
+  display: flex;
+  flex-direction: column;
 }

@@ -3,7 +3,7 @@ import Button from "./Button";
 
 function Column() {
   return (
-    <div>
+    <div className="col-bar">
       <div className="bar"></div>
       <Button />
     </div>

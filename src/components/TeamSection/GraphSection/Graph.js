@@ -3,7 +3,7 @@ import Column from "./Column";
 
 function Graph() {
   return (
-    <div>
+    <div className="graph-div">
       <Column />
     </div>
   );

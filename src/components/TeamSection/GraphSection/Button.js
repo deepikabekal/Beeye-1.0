@@ -4,7 +4,7 @@ import { faPlus, faMinus } from "@fortawesome/free-solid-svg-icons";
 
 function Button() {
   return (
-    <div>
+    <div className="button-set">
       <button type="button" className="inc-dec-btn">
         <FontAwesomeIcon icon={faPlus} className="icon-color" />
       </button>
