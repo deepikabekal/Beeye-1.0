@@ -3,8 +3,7 @@ header {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
-  background-color: var(--background);
-  border-bottom: 1px solid var(--borderColor);
+  background-color: var(--backgroundLight);
 }
 
 /* #navigation {

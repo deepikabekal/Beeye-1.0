@@ -2,14 +2,14 @@
   --mediumGray: #686985;
   --darkOrange: #f27633;
   --borderColor: #e5e5e5;
-  --background: #fdfcff;
-  --light: #fafafa;
-  --dark: #000000;
+  --backgroundLight: #fdfcff;
+  --lightGray: #b7bad6;
+  /* --dark: #000000;
   --darker: #111111;
   --error: rgb(228, 46, 1);
   --spacing-one: calc(1rem * 0.5);
   --spacing-two: calc(1rem);
-  --spacing-five: calc(2.5rem);
+  --spacing-five: calc(2.5rem); */
 }
 
 * {
@@ -19,11 +19,21 @@
 html,
 body {
   min-height: 100%;
-  background: ;
+  margin: 0;
 }
 
-main {
+/* main {
   margin: 0 auto;
   max-width: 90%;
   padding: 20px 30px;
+} */
+
+/* common styles for multiple pages */
+.grayed-text {
+  color: var(--lightGray);
+}
+
+.div-border {
+  border-bottom: 1px solid var(--borderColor);
+  width: 100%;
 }
