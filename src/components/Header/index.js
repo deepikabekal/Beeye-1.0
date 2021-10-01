@@ -2,7 +2,7 @@ import React from "react";
 import Icons from "./Icons";
 import Navigation from "./Navigation";
 import Avatar from "../Avatar";
-import employee from "../employee";
+import employees from "../employees";
 import "./header.css";
 
 function Header() {
@@ -20,7 +20,7 @@ function Header() {
         <Icons className="icon-style" />
         <Avatar
           className="user-img"
-          imageURL={employee[0].imageURL}
+          imageURL={employees[0].imageURL}
           altValue="Female Employee"
         />
       </div>
