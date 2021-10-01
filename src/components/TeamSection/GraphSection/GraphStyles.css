@@ -1,0 +1,14 @@
+.section-div {
+  background-color: var(--greysLight02);
+}
+
+.inc-dec-btn {
+  border: 1px solid var(--greysMed01);
+  border-radius: 5px;
+  width: 32px;
+  height: 32px;
+}
+
+.icon-color {
+  color: var(--greysMed01);
+}

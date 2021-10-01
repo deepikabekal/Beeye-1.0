@@ -4,7 +4,7 @@ import "./GraphStyles.css";
 
 function GraphSection() {
   return (
-    <div className="">
+    <div className="section-div">
       <Graph />
     </div>
   );

@@ -5,11 +5,11 @@ import { faPlus, faMinus } from "@fortawesome/free-solid-svg-icons";
 function Button() {
   return (
     <div>
-      <button type="button">
-        <FontAwesomeIcon icon={faPlus} color="black" />
+      <button type="button" className="inc-dec-btn">
+        <FontAwesomeIcon icon={faPlus} className="icon-color" />
       </button>
-      <button type="button">
-        <FontAwesomeIcon icon={faMinus} color="black" />
+      <button type="button" className="inc-dec-btn">
+        <FontAwesomeIcon icon={faMinus} className="icon-color" />
       </button>
     </div>
   );
