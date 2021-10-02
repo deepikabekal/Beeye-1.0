@@ -3,7 +3,7 @@ import Graph from "./Graph";
 import TimeSheet from "./TimeSheet";
 import "./GraphStyles.css";
 
-function GraphSection() {
+function PlanningGraph() {
   return (
     <div className="section-div">
       <Graph />
@@ -12,4 +12,4 @@ function GraphSection() {
   );
 }
 
-export default GraphSection;
+export default PlanningGraph;

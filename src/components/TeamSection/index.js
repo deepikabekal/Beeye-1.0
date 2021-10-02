@@ -1,11 +1,11 @@
 import React from "react";
-import GraphSection from "./GraphSection";
+import PlanningGraph from "./PlanningGraph";
 import ResourcePlanning from "./ResourcePlanning";
 
 function TeamSection() {
   return (
     <>
-      <GraphSection />
+      <PlanningGraph />
       <ResourcePlanning />
     </>
   );
