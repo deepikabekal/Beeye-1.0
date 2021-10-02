@@ -4,13 +4,13 @@ import NomenclatureData from "./NomenclatureData";
 
 function JournauxTabs() {
   return (
-    <div>
+    <div className="nomenclature-bar div-border">
       {NomenclatureData.map((item) => (
         <Button
           key={item.id}
-          btnClass=""
+          btnClass="nomenclature-btn"
           icon={item.icon}
-          iconClass=""
+          iconClass="nomenclature-icon"
           name={item.name}
         />
       ))}

@@ -1,6 +1,8 @@
 .journaux-header {
   display: flex;
   align-items: center;
+  height: 48px;
+  margin-left: 10px;
 }
 
 .section-heading {
@@ -29,4 +31,26 @@
 .pen-icon-style {
   color: rgba(160, 160, 160, 1);
   padding: 1px;
+}
+
+/* nomenclature bar styles */
+.nomenclature-bar {
+  height: 48px;
+  display: flex;
+  margin: 0 10px;
+}
+
+.nomenclature-btn {
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+  padding: 0 10px;
+  color: var(--baseDark01);
+  background-color: var(--greysLight02);
+  border: 1px solid var(--borderColor);
+}
+
+.nomenclature-icon {
+  color: var(--baseMed10);
+  margin-right: 10px;
 }
