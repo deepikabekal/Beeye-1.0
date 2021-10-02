@@ -1,0 +1,32 @@
+.journaux-header {
+  display: flex;
+  align-items: center;
+}
+
+.section-heading {
+  font-size: 20px;
+  font-weight: lighter;
+  padding: 0 3px;
+  text-align: center;
+  color: var(--baseDark01);
+}
+
+.icon-btn {
+  background-color: var(--baseLight20);
+  border: 1px solid var(--greysMed01);
+  padding: 2px;
+  border-radius: 3px;
+  width: 25px;
+  height: 20px;
+  margin: 4px;
+}
+
+.sync-icon-style {
+  color: rgba(52, 52, 75, 1);
+  padding: 1px;
+}
+
+.pen-icon-style {
+  color: rgba(160, 160, 160, 1);
+  padding: 1px;
+}

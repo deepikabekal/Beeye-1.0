@@ -1,5 +1,5 @@
 import React from "react";
-import Button from "./Button";
+import Button from "../Button";
 import { faPlus, faMinus } from "@fortawesome/free-solid-svg-icons";
 
 function Column(props) {
