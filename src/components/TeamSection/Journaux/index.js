@@ -1,6 +1,7 @@
 import React from "react";
 import Button from "../Button";
 import JournauxTab from "./JournauxTabs";
+import JournauxTabSections from "./JournauxTabSections";
 import "./JournauxStyles.css";
 import { faSync, faPen } from "@fortawesome/free-solid-svg-icons";
 function Journaux() {
@@ -12,6 +13,7 @@ function Journaux() {
         <Button btnClass="icon-btn" icon={faPen} iconClass="pen-icon-style" />
       </div>
       <JournauxTab />
+      <JournauxTabSections />
     </div>
   );
 }

@@ -54,3 +54,8 @@
   color: var(--baseMed10);
   margin-right: 10px;
 }
+
+/* JournauxTabSections styles */
+.button-bar-section {
+  display: flex;
+}
