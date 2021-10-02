@@ -6,10 +6,10 @@ function JournauxTabSections() {
   return (
     <>
       {NomenclatureData.map((item) => (
-        <div className="button-bar-section" key={item.id}>
-          <FontAwesomeIcon icon={item.icon} />
-          <span>{item.name}</span>
-          <span>{item.displayValue}</span>
+        <div className="button-bar-section div-border" key={item.id}>
+          <FontAwesomeIcon icon={item.icon} className="tab-section-icon" />
+          <span className="tab-section-name">{item.name}</span>
+          <span className="tab-section-value">{item.displayValue}</span>
         </div>
       ))}
     </>

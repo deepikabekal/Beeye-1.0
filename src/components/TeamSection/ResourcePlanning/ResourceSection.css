@@ -14,8 +14,15 @@
   text-align: left;
 }
 
-.resource-p-tag {
+.resource-name {
   /* padding: 0; */
+  color: var(--baseDark01);
+  margin: 10px;
+  line-height: 1px;
+}
+
+.resource-desig {
+  color: var(--lightGray);
   margin: 10px;
   line-height: 1px;
 }

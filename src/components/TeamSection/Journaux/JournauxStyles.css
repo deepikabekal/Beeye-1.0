@@ -58,4 +58,25 @@
 /* JournauxTabSections styles */
 .button-bar-section {
   display: flex;
+  display: flex;
+  height: 48px;
+  align-items: center;
+  margin: 0 10px;
+}
+
+.tab-section-name,
+.tab-section-icon {
+  margin: 0 6px;
+}
+
+.tab-section-name {
+  color: var(--baseDark01);
+}
+
+.tab-section-icon {
+  color: var(--baseMed10);
+}
+
+.tab-section-value {
+  color: var(--lightGray);
 }
