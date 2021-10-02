@@ -12,11 +12,11 @@ function Navigation() {
 
   return (
     <nav>
-      <ul>
+      <ul className="header-list">
         {navLinksInfo.map((item) => (
           <li key={item.id.toString()} className="li-style">
             <a className="nav-link" href={item.navURL}>
-              {item.navName}{" "}
+              {item.navName}
             </a>
           </li>
         ))}
