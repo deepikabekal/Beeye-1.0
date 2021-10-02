@@ -1,5 +1,7 @@
 import React from "react";
 import "./EquipeStyles.css";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faPlus } from "@fortawesome/free-solid-svg-icons";
 
 function Equipe() {
   const toggleBtn = [
@@ -17,14 +19,18 @@ function Equipe() {
           </button>
         ))}
       </div>
-      <div>
-        <span>Poste</span>
-        <span>Assistant comptable</span>
+      <div className="post-site-div">
+        <span className="label-span">Poste</span>
+        <span className="value-span">Assistant comptable</span>
       </div>
-      <div>
-        <span>Site </span>
-        <span>Paris</span>
+      <div className="post-site-div">
+        <span className="label-span">Site </span>
+        <span className="value-span">Paris</span>
       </div>
+      <p className="equipe-plus">
+        <FontAwesomeIcon icon={faPlus} className="equipe-plus-icon" /> Ajouter
+        un filtre
+      </p>
     </div>
   );
 }
