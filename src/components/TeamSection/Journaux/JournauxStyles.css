@@ -48,6 +48,8 @@
   color: var(--baseDark01);
   background-color: var(--greysLight02);
   border: 1px solid var(--borderColor);
+  box-shadow: inset 0px 0px 1px rgba(0, 0, 0, 0.1),
+    inset 0px 1px 1px rgba(0, 0, 0, 0.05);
 }
 
 .nomenclature-icon {

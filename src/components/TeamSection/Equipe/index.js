@@ -1,4 +1,5 @@
 import React from "react";
+import "./EquipeStyles.css";
 
 function Equipe() {
   const toggleBtn = [
@@ -8,15 +9,21 @@ function Equipe() {
     { id: 4, name: "Référence" }
   ];
   return (
-    <div>
-      <div>
+    <div className="equipe-div">
+      <div className="toggle-btn-bar">
         {toggleBtn.map((item) => (
-          <>
-            <button key={item.id} type="button">
-              {item.name}
-            </button>
-          </>
+          <button key={item.id} type="button" className="equipe-toggle-btn">
+            {item.name}
+          </button>
         ))}
+      </div>
+      <div>
+        <span>Poste</span>
+        <span>Assistant comptable</span>
+      </div>
+      <div>
+        <span>Site </span>
+        <span>Paris</span>
       </div>
     </div>
   );
