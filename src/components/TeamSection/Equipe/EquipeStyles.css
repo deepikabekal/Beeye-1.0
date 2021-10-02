@@ -1,5 +1,6 @@
 .equipe-div {
   background-color: var(--baseLight21);
+  padding: 10px;
 }
 .toggle-btn-bar,
 .post-site-div {
@@ -56,6 +57,16 @@
 
 .equipe-plus {
   color: var(--baseMed10);
+  margin: 10px 20px;
+  padding: 10px 0;
+}
+
+.nom-div {
+  height: 48px;
+  display: flex;
+  align-items: center;
+}
+.nom-p-tag {
   margin: 10px 25px;
-  padding: 10px;
+  color: var(--greysDark0);
 }

@@ -12,25 +12,30 @@ function Equipe() {
   ];
   return (
     <div className="equipe-div">
-      <div className="toggle-btn-bar">
-        {toggleBtn.map((item) => (
-          <button key={item.id} type="button" className="equipe-toggle-btn">
-            {item.name}
-          </button>
-        ))}
+      <div className="div-border">
+        <div className="toggle-btn-bar">
+          {toggleBtn.map((item) => (
+            <button key={item.id} type="button" className="equipe-toggle-btn">
+              {item.name}
+            </button>
+          ))}
+        </div>
+        <div className="post-site-div">
+          <span className="label-span">Poste</span>
+          <span className="value-span">Assistant comptable</span>
+        </div>
+        <div className="post-site-div">
+          <span className="label-span">Site </span>
+          <span className="value-span">Paris</span>
+        </div>
+        <p className="equipe-plus">
+          <FontAwesomeIcon icon={faPlus} className="equipe-plus-icon" /> Ajouter
+          un filtre
+        </p>
       </div>
-      <div className="post-site-div">
-        <span className="label-span">Poste</span>
-        <span className="value-span">Assistant comptable</span>
+      <div className="nom-div div-border">
+        <p className="nom-p-tag">Nom</p>
       </div>
-      <div className="post-site-div">
-        <span className="label-span">Site </span>
-        <span className="value-span">Paris</span>
-      </div>
-      <p className="equipe-plus">
-        <FontAwesomeIcon icon={faPlus} className="equipe-plus-icon" /> Ajouter
-        un filtre
-      </p>
     </div>
   );
 }
