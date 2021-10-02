@@ -59,8 +59,15 @@
 .timesheet-section {
   display: flex;
   flex-direction: column;
+  padding: 10px 20px;
+  background-color: rgba(246, 247, 250, 0.8);
+  border: 1px solid var(--borderColor);
+  /* width: 30%;
+  height: 290px; */
 }
 .timesheet-btn-div {
+  display: flex;
+  justify-content: center;
   padding: 5px;
 }
 
@@ -69,13 +76,17 @@
 }
 
 .date-span {
+  align-self: center;
   color: var(--mediumGray);
 }
 
 .budget-div {
   display: flex;
   flex-direction: column;
-  padding: 5px;
+  /* margin-left: 20px; */
+  padding-inline-start: 10px;
+
+  /* padding: 5px; */
   color: var(--darkOrange);
 }
 
@@ -86,5 +97,31 @@
 .budget-item {
   display: flex;
   justify-content: space-between;
+  padding: 5px;
   color: var(--baseDark01);
+}
+
+/* toggle bar styles */
+.togglebar-div {
+  display: flex;
+  justify-content: center;
+  align-self: center;
+  /* width: 312px;
+  height: 40px; */
+  width: fit-content;
+  height: 50px;
+  border: 1px solid var(--greysLight02);
+  border-radius: 5px;
+}
+
+.toggle-btn {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 70px;
+  height: 50px;
+  align-items: center;
+  padding: 8px 12px;
+  color: var(--mediumGray);
+  border: 1px solid var(--borderColor);
 }

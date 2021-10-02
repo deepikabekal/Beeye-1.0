@@ -1,6 +1,7 @@
 import React from "react";
 import Button from "./Button";
 import BudgetInfo from "./BudgetInfo";
+import ToggleBar from "./ToggleBar";
 import {
   faChevronLeft,
   faChevronRight
@@ -23,6 +24,7 @@ function TimeSheet() {
         />
       </div>
       <BudgetInfo />
+      <ToggleBar />
     </div>
   );
 }
