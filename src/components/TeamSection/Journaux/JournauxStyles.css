@@ -1,0 +1,82 @@
+.journaux-header {
+  display: flex;
+  align-items: center;
+  height: 48px;
+  margin-left: 10px;
+}
+
+.section-heading {
+  font-size: 20px;
+  font-weight: lighter;
+  padding: 0 3px;
+  text-align: center;
+  color: var(--baseDark01);
+}
+
+.icon-btn {
+  background-color: var(--baseLight20);
+  border: 1px solid var(--greysMed01);
+  padding: 2px;
+  border-radius: 3px;
+  width: 25px;
+  height: 20px;
+  margin: 4px;
+}
+
+.sync-icon-style {
+  color: rgba(52, 52, 75, 1);
+  padding: 1px;
+}
+
+.pen-icon-style {
+  color: rgba(160, 160, 160, 1);
+  padding: 1px;
+}
+
+/* nomenclature bar styles */
+.nomenclature-bar {
+  height: 48px;
+  display: flex;
+  margin: 0 10px;
+}
+
+.nomenclature-btn {
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+  padding: 0 10px;
+  color: var(--baseDark01);
+  background-color: var(--greysLight02);
+  border: 1px solid var(--borderColor);
+}
+
+.nomenclature-icon {
+  color: var(--baseMed10);
+  margin-right: 10px;
+}
+
+/* JournauxTabSections styles */
+.button-bar-section {
+  display: flex;
+  display: flex;
+  height: 48px;
+  align-items: center;
+  margin: 0 10px;
+}
+
+.tab-section-name,
+.tab-section-icon {
+  margin: 0 6px;
+}
+
+.tab-section-name {
+  color: var(--baseDark01);
+}
+
+.tab-section-icon {
+  color: var(--baseMed10);
+}
+
+.tab-section-value {
+  color: var(--lightGray);
+}

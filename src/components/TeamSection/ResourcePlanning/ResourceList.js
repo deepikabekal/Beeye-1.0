@@ -7,8 +7,8 @@ function ResourceList(props) {
         <img src={props.imageURL} alt="employee of the company" />
       </div>
       <div className="resource-info-div">
-        <p className="resource-p-tag">{props.employeeName}</p>
-        <p className="resource-p-tag grayed-text">{props.designation}</p>
+        <p className="resource-name">{props.employeeName}</p>
+        <p className="resource-desig">{props.designation}</p>
       </div>
     </div>
   );

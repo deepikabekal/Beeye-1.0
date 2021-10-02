@@ -6,6 +6,7 @@ function Button(props) {
   return (
     <button type="button" className={props.btnClass}>
       <FontAwesomeIcon icon={props.icon} className={props.iconClass} />
+      {props.name}
     </button>
   );
 }

@@ -1,5 +1,5 @@
 import React from "react";
-import Button from "./Button";
+import Button from "../Button";
 import BudgetInfo from "./BudgetInfo";
 import ToggleBar from "./ToggleBar";
 import {
