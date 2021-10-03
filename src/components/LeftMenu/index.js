@@ -24,6 +24,7 @@ function LeftMenu() {
         imageURL={employee.imageURL}
         employeeName={employee.employeeName}
         designation={employee.designation}
+        classname="top-border"
       />
       <LeftMenuList />
     </div>

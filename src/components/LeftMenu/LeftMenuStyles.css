@@ -83,3 +83,19 @@
   background-color: var(--greysLight02);
   color: var(--greysMed01);
 }
+.top-border {
+  border: 1px solid var(--borderColor);
+}
+
+/* left menu list styles */
+
+.menu-list-container {
+  height: 48px;
+  display: flex;
+}
+
+.menu-list-content {
+  align-self: center;
+  padding-left: 10px;
+  color: var(--baseDark01);
+}

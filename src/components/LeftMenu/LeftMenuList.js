@@ -5,8 +5,8 @@ function LeftMenuList() {
   return (
     <>
       {menuData.map((item, index) => (
-        <div key={index}>
-          <span>{item}</span>
+        <div key={index} className="menu-list-container div-border">
+          <span className="menu-list-content">{item}</span>
         </div>
       ))}
     </>
