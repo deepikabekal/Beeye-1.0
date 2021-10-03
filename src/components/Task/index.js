@@ -1,15 +1,27 @@
-import React from "react";
+import { React, useState } from "react";
 import "./TaskStyles.css";
 import TaskHeader from "./TaskHeader";
+import TaskCard from "./TaskCard";
 
 function Task() {
+  let [count, setCount] = useState(0);
+
+  function addCard() {
+    setCount(count + 1);
+  }
   return (
     <div className="task-container">
-      <TaskHeader />
+      <TaskHeader onClick={addCard} />
       <div className="select-all-container">
         <input id="select-all" type="checkbox" className="check-box" />
         <label htmlFor="select-all">Sélectionner tout</label>
       </div>
+      {/* {isClicked ? <TaskCard /> : (isClicked = false)} */}
+      {[...Array(count)].map((item, index) => (
+        <>
+          <TaskCard key={item} />
+        </>
+      ))}
     </div>
   );
 }
