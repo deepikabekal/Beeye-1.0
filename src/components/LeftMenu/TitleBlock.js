@@ -4,7 +4,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 function TitleBlock() {
   return (
-    <div className="title-block-container box-shadow-style">
+    <div className="title-block-container div-border">
       <div className="title-container div-border">
         <div className="title-icon-container">
           <h2 className="title-block-heading">Titre</h2>

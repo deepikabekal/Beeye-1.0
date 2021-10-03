@@ -1,7 +1,7 @@
 const employees = [
   {
     id: 1,
-    imageURL: "../assets/images/employee-1.png",
+    imageURL: "../assets/images/employee-1.jpg",
     employeeName: "Gabrielle Chevalier",
     designation: "Assistant comptable"
   },

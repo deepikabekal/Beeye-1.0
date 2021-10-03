@@ -1,9 +1,10 @@
 /* title block styles */
 
 .title-block-container {
-  height: 90px;
+  height: 105px;
   width: 200px;
-  margin: 10px;
+  margin: 10px 0 0 0px;
+  /* padding-left: 5px; */
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -21,6 +22,7 @@
 .title-container {
   margin-bottom: 10px;
   height: 60px;
+  padding: 0 5px 0 5px;
 }
 
 .debut-container,
@@ -33,6 +35,7 @@
 .menu-link-container {
   display: flex;
   justify-content: space-between;
+  padding: 0 5px 5px 5px;
 }
 
 .title-block-heading {
@@ -60,4 +63,23 @@
   color: var(--baseMed11);
 }
 
-/*  */
+/* open-close project button styles */
+.project-btn-container {
+  height: 32px;
+}
+.project-btn {
+  width: 50%;
+  height: 32px;
+  border: none;
+  margin: 0;
+}
+
+.open-btn {
+  background-color: var(--baseLight21);
+  color: var(--baseMed10);
+}
+
+.close-btn {
+  background-color: var(--greysLight02);
+  color: var(--greysMed01);
+}

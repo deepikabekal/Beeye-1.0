@@ -20,7 +20,7 @@ function Header() {
         <Icons className="icon-style" />
         <Avatar
           className="user-img"
-          imageURL={employees[0].imageURL}
+          imageURL="../assets/images/employee-profile.png"
           altValue="Female Employee"
         />
       </div>

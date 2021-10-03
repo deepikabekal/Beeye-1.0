@@ -1,6 +1,6 @@
 import React from "react";
 
-function ResourceList(props) {
+function ResourceCard(props) {
   return (
     <div className="resource-list-div div-border">
       <div className="resource-img-div">
@@ -14,4 +14,4 @@ function ResourceList(props) {
   );
 }
 //require(`../assets/images/${props.imgName}`
-export default ResourceList;
+export default ResourceCard;
