@@ -2,13 +2,16 @@
 import React from "react";
 import Header from "../src/components/Header";
 import TeamSection from "./components/TeamSection";
-
+import LeftMenu from "./components/LeftMenu";
 function App() {
   return (
-    <div>
+    <>
       <Header />
-      <TeamSection />
-    </div>
+      <div>
+        <LeftMenu />
+        <TeamSection />
+      </div>
+    </>
   );
 }
 
