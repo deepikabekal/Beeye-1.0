@@ -1,0 +1,63 @@
+/* title block styles */
+
+.title-block-container {
+  height: 90px;
+  width: 200px;
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.title-icon-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px 0;
+  height: 24px;
+  /* margin-left: 10px; */
+}
+
+.title-container {
+  margin-bottom: 10px;
+  height: 60px;
+}
+
+.debut-container,
+.fin-container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.menu-link-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.title-block-heading {
+  font-size: 20px;
+  color: var(--baseDark01);
+  text-align: center;
+}
+
+.star-icon,
+.arrow-icon {
+  color: var(--greysMed01);
+}
+
+.link-span {
+  color: var(--greysDark0);
+  font-size: 10px;
+}
+
+.date-span {
+  color: var(--baseDark01);
+  font-size: 10px;
+}
+
+.client-name {
+  color: var(--baseMed11);
+}
+
+/*  */
