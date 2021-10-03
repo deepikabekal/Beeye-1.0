@@ -1,7 +1,14 @@
+.journaux-container {
+  width: 100%;
+}
+
 .journaux-header {
   display: flex;
+  width: 90%;
+  flex-grow: 1;
+  min-width: 800px;
   align-items: center;
-  height: 48px;
+  height: 56px;
   margin-left: 10px;
 }
 

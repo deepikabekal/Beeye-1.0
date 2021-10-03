@@ -4,7 +4,7 @@ import TaskHeader from "./TaskHeader";
 
 function Task() {
   return (
-    <div className="title-block-container div-border">
+    <div className="task-container">
       <TaskHeader />
     </div>
   );
