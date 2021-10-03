@@ -1,7 +1,8 @@
 import React from "react";
-import TitleBlock from "./TitleBlock";
 import "./LeftMenuStyles.css";
+import TitleBlock from "./TitleBlock";
 import ResourceCard from "../TeamSection/ResourcePlanning/ResourceCard";
+import LeftMenuList from "./LeftMenuList";
 import employees from "../employees";
 const employee = employees[0];
 
@@ -24,6 +25,7 @@ function LeftMenu() {
         employeeName={employee.employeeName}
         designation={employee.designation}
       />
+      <LeftMenuList />
     </div>
   );
 }
