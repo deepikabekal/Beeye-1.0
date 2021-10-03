@@ -8,9 +8,9 @@ function TeamSection() {
   return (
     <>
       <Journaux />
-      <Equipe />
-      <PlanningGraph />
-      <ResourcePlanning />
+      {/* <Equipe /> */}
+      {/* <PlanningGraph />
+      <ResourcePlanning /> */}
     </>
   );
 }
