@@ -30,3 +30,19 @@
 .task-header-icon {
   margin: 0 5px;
 }
+
+/* select all section styles */
+.select-all-container {
+  display: flex;
+  height: 48px;
+  align-items: center;
+  background-color: var(--accentLOrange10);
+  font-size: 17px;
+  color: var(--baseDark01);
+}
+
+.check-box {
+  margin: 8px;
+  width: 15px;
+  height: 15px;
+}
