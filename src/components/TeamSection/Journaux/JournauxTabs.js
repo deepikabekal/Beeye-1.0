@@ -2,7 +2,7 @@ import React from "react";
 import Button from "../Button";
 import NomenclatureData from "./NomenclatureData";
 
-function JournauxTabs() {
+function JournauxTabs({ onClick }) {
   return (
     <div className="nomenclature-bar div-border">
       {NomenclatureData.map((item) => (
@@ -12,6 +12,8 @@ function JournauxTabs() {
           icon={item.icon}
           iconClass="nomenclature-icon"
           name={item.name}
+          id={item.name}
+          onClick={onClick}
         />
       ))}
     </div>

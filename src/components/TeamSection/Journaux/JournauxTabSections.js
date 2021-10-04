@@ -1,18 +1,15 @@
 import React from "react";
 import NomenclatureData from "./NomenclatureData";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import IndivSection from "./IndivSection";
 
-function JournauxTabSections() {
+function JournauxTabSections(props) {
   return (
     <>
       {NomenclatureData.map((item) => (
-        <div
-          className="button-bar-section pad-left-15 div-border"
-          key={item.id}
-        >
-          <FontAwesomeIcon icon={item.icon} className="tab-section-icon" />
-          <span className="tab-section-name">{item.name}</span>
-          <span className="tab-section-value">{item.displayValue}</span>
+        <div key={item.id}>
+          {props.tabName === item.name && (
+            <IndivSection tabName={props.tabName} item={item} />
+          )}
         </div>
       ))}
     </>
