@@ -4,7 +4,7 @@ function TaskCard() {
   return (
     <div className="task-card-container">
       <div className="checkbox-container">
-        <input className="check-box" type="checkbox" />
+        <input className="check-box indiv-check-box" type="checkbox" />
       </div>
       <div className="task-card">
         <button type="button" className="card-button ">
