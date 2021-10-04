@@ -99,8 +99,22 @@
   cursor: pointer;
 }
 
+.menu-list-container:focus {
+  background-color: var(--accentLOrange11);
+}
+
+.menu-link-container {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 5px 5px 5px;
+}
+
 .menu-list-content {
   align-self: center;
   padding-left: 10px;
   color: var(--baseDark01);
+}
+
+.click-styles {
+  background-color: var(--accentLOrange11);
 }

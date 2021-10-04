@@ -6,7 +6,7 @@ import LeftMenuList from "./LeftMenuList";
 import employees from "../employees";
 const employee = employees[0];
 
-function LeftMenu({ onClick }) {
+function LeftMenu(props) {
   return (
     <div>
       <TitleBlock />
@@ -26,7 +26,11 @@ function LeftMenu({ onClick }) {
         designation={employee.designation}
         classname="top-border"
       />
-      <LeftMenuList onClick={onClick} />
+      <LeftMenuList
+        onClick={props.onClick}
+        // className={props.className}
+        // isclicked={props.isClicked}
+      />
     </div>
   );
 }
