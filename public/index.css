@@ -44,7 +44,12 @@ body {
   width: 100%;
 }
 
+.container {
+  display: flex;
+}
+
 /* common styles for multiple pages */
+
 .grayed-text {
   color: var(--lightGray);
 }
@@ -52,10 +57,6 @@ body {
 .div-border {
   border-bottom: 1px solid var(--borderColor);
   width: 100%;
-}
-
-.container {
-  display: flex;
 }
 
 .box-shadow-style {

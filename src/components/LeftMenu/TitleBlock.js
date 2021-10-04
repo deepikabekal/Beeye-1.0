@@ -5,14 +5,14 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 function TitleBlock() {
   return (
     <div className="title-block-container div-border">
-      <div className="title-container div-border">
-        <div className="title-icon-container">
+      <div className="title-container div-border pad-left-15">
+        <div className="title-icon-container ">
           <h2 className="title-block-heading">Titre</h2>
           <FontAwesomeIcon icon={faStar} className="star-icon" />
         </div>
         <span className="client-name">Client Name</span>
       </div>
-      <div className="menu-link-container">
+      <div className="menu-link-container ">
         <div className="debut-container">
           <span className="link-span">DÉBUT</span>
           <span className="date-span">11 / 11 / 2020</span>

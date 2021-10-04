@@ -1,18 +1,13 @@
-// import "./styles.css";
 import React from "react";
 import Header from "../src/components/Header";
-import TeamSection from "./components/TeamSection";
-import LeftMenu from "./components/LeftMenu";
-import Task from "./components/Task";
+import Main from "./components/Main";
+import "../public/index.css";
+
 function App() {
   return (
     <>
       <Header />
-      <div className="container">
-        <LeftMenu />
-        <Task />
-        <TeamSection />
-      </div>
+      <Main />
     </>
   );
 }

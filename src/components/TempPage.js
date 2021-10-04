@@ -1,9 +1,15 @@
 import React from "react";
+import "./TempPageStyle.css";
 
-function TempPage() {
+function TempPage(props) {
   return (
     <div>
-      <p> Page under construction </p>
+      <div className="temp-page-header">
+        <h2 className="temp-page-heading">{props.name}</h2>
+      </div>
+      <div>
+        <p className="user-msg">Page under development </p>
+      </div>
     </div>
   );
 }

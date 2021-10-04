@@ -3,7 +3,7 @@ import "./TaskStyles.css";
 import TaskHeader from "./TaskHeader";
 import TaskCard from "./TaskCard";
 
-function Task() {
+function Task(props) {
   let [count, setCount] = useState(0); // for + click
   let [isChecked, setChecked] = useState(false); //for select all checkbox click
 
@@ -42,7 +42,7 @@ function Task() {
 
   return (
     <div className="task-container">
-      <TaskHeader onClick={addCard} />
+      <TaskHeader onClick={addCard} name={props.name} />
       <div className="select-all-container">
         <input
           id="select-all"

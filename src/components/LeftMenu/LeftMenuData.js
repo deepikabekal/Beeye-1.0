@@ -1,6 +1,7 @@
 const LeftMenuData = [
   "Informations",
   "Honoraires",
+  "Tâches",
   "Dépenses",
   "Factures",
   "Fichiers",
