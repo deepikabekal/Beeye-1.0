@@ -1,11 +1,14 @@
 import React from "react";
+import "./TempPageStyle.css";
 
 function TempPage(props) {
   return (
-    <div className="task-header-container" style={{ flexDirection: "column" }}>
-      <h2 className="task-heading">{props.name}</h2>
+    <div>
+      <div className="temp-page-header">
+        <h2 className="temp-page-heading">{props.name}</h2>
+      </div>
       <div>
-        <p>page under development </p>
+        <p className="user-msg">Page under development </p>
       </div>
     </div>
   );
