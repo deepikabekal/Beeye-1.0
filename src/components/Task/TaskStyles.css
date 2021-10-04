@@ -45,4 +45,60 @@
   margin: 8px;
   width: 15px;
   height: 15px;
+  box-shadow: inset 0px 0px 3px rgba(0, 0, 0, 0.1);
+  border-radius: 4px;
+}
+/* .check-box:checked{
+  content: 
+} */
+/* task card section styles */
+
+.task-card-container {
+  display: flex;
+}
+
+.task-card {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  background-color: var(--accentLOrange11);
+  padding: 10px;
+  line-height: 5px;
+}
+
+.task-card-content {
+  align-items: center;
+  /* background-color: var(--accentLOrange11); */
+  color: var(--baseDark01);
+}
+
+.content-1 {
+  color: var(--baseDark01);
+  font-size: 15px;
+}
+
+.content-2 {
+  color: var(--baseMed10);
+  font-size: 14px;
+}
+
+.content-3 {
+  color: var(--baseMed11);
+  font-size: 14px;
+}
+
+.checkbox-container {
+  background-color: var(--accentLOrange10);
+}
+
+.card-button {
+  width: max-content;
+  font-size: 10px;
+  padding: 5px;
+  background-color: var(--accentLOrange10);
+  color: var(--accentOrange01);
+  border: 1px solid var(--accentOrange01);
+  box-shadow: inset 0px 0px 1px rgba(0, 0, 0, 0.1),
+    inset 0px 1px 1px rgba(0, 0, 0, 0.05);
+  border-radius: 2px;
 }

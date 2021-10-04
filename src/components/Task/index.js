@@ -5,10 +5,12 @@ import TaskCard from "./TaskCard";
 
 function Task() {
   let [count, setCount] = useState(0);
+  let [isClicked, setClicked] = useState(false);
 
   function addCard() {
     setCount(count + 1);
   }
+
   return (
     <div className="task-container">
       <TaskHeader onClick={addCard} />
@@ -16,11 +18,9 @@ function Task() {
         <input id="select-all" type="checkbox" className="check-box" />
         <label htmlFor="select-all">Sélectionner tout</label>
       </div>
-      {/* {isClicked ? <TaskCard /> : (isClicked = false)} */}
-      {[...Array(count)].map((item, index) => (
-        <>
-          <TaskCard key={item} />
-        </>
+      {/*  */}
+      {[...Array(count)].map((_, index) => (
+        <TaskCard key={index} />
       ))}
     </div>
   );
