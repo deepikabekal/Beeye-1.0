@@ -94,6 +94,10 @@
   display: flex;
 }
 
+.menu-list-container:hover{
+  background-color: var(--baseLight20);
+}
+
 .menu-list-content {
   align-self: center;
   padding-left: 10px;

@@ -1,9 +1,11 @@
 import React from "react";
+import TaskHeader from "./Task/TaskHeader";
 
-function TempPage() {
+function TempPage(props) {
   return (
-    <div>
-      <p> Page under construction </p>
+    <div className="task-container">
+      <TaskHeader name={props.name} />
+      <p>page under development </p>
     </div>
   );
 }
