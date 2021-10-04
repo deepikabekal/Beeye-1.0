@@ -1,4 +1,5 @@
 import { React, useState } from "react";
+import "./Main.css";
 import TeamSection from "./TeamSection";
 import LeftMenu from "./LeftMenu";
 import Task from "./Task";

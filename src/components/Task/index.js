@@ -43,7 +43,7 @@ function Task(props) {
   return (
     <div className="task-container">
       <TaskHeader onClick={addCard} name={props.name} />
-      <div className="select-all-container">
+      <div className="select-all-container ">
         <input
           id="select-all"
           type="checkbox"
