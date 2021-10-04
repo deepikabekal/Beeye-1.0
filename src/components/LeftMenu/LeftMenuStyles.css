@@ -94,8 +94,9 @@
   display: flex;
 }
 
-.menu-list-container:hover{
+.menu-list-container:hover {
   background-color: var(--baseLight20);
+  cursor: pointer;
 }
 
 .menu-list-content {

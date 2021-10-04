@@ -5,14 +5,14 @@ function LeftMenuList({ onClick }) {
   return (
     <>
       {menuData.map((item, index) => (
-        <div
+        <li
           key={index}
           className="menu-list-container div-border"
           onClick={onClick}
           id={item}
         >
-          <span className="menu-list-content">{item}</span>
-        </div>
+          {item}
+        </li>
       ))}
     </>
   );
