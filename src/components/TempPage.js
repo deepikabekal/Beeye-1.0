@@ -1,9 +1,12 @@
 import React from "react";
 
-function TempPage() {
+function TempPage(props) {
   return (
-    <div>
-      <p> Page under construction </p>
+    <div className="task-header-container" style={{ flexDirection: "column" }}>
+      <h2 className="task-heading">{props.name}</h2>
+      <div>
+        <p>page under development </p>
+      </div>
     </div>
   );
 }
