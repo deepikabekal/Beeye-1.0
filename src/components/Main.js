@@ -7,14 +7,15 @@ import TempPage from "./TempPage";
 
 function Main() {
   const [elementId, setElementId] = useState("Tâches");
+  // const [isClicked, setClicked] = useState(true);
 
   function renderSection(event) {
     setElementId(event.target.id);
-    console.log(elementId);
   }
+
   return (
     <div className="container">
-      <LeftMenu onClick={renderSection} />
+      <LeftMenu onClick={renderSection} clickedItem={elementId} />
       {elementId === "Tâches" ? (
         <Task name={elementId} />
       ) : (

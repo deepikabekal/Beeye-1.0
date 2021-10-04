@@ -26,11 +26,7 @@ function LeftMenu(props) {
         designation={employee.designation}
         classname="top-border"
       />
-      <LeftMenuList
-        onClick={props.onClick}
-        // className={props.className}
-        // isclicked={props.isClicked}
-      />
+      <LeftMenuList onClick={props.onClick} clickedItem={props.clickedItem} />
     </div>
   );
 }
