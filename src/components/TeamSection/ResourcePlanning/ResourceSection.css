@@ -1,6 +1,7 @@
 .resource-list-div {
   display: flex;
   align-items: center;
+  cursor: pointer;
   /* align-self: stretch; */
 }
 
