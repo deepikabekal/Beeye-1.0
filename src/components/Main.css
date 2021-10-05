@@ -2,3 +2,7 @@
 .pad-left-15 {
   padding-left: 15px;
 }
+
+.btn:hover {
+  background-color: var(--baseLight20);
+}

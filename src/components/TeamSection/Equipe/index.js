@@ -15,7 +15,11 @@ function Equipe() {
       <div className="div-border">
         <div className="toggle-btn-bar">
           {toggleBtn.map((item) => (
-            <button key={item.id} type="button" className="equipe-toggle-btn">
+            <button
+              key={item.id}
+              type="button"
+              className="equipe-toggle-btn btn"
+            >
               {item.name}
             </button>
           ))}
