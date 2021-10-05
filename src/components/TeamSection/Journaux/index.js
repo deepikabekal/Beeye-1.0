@@ -10,7 +10,7 @@ function Journaux() {
 
   function renderPage(event) {
     setClickedBtn(event.target.id);
-    console.log(event.target.id);
+    // console.log(event.target.id);
   }
 
   return (
