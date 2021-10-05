@@ -1,17 +1,25 @@
 import React from "react";
 import ResourceCard from "./ResourceCard";
 import employees from "../../employees";
+import PlanningGraph from "../PlanningGraph";
 
-function ResourceListSection() {
+function ResourceListSection(props) {
+  console.log(props.clickedName);
   return (
     <div>
-      {employees.slice(1).map((item) => (
-        <ResourceCard
-          key={item.id}
-          imageURL={item.imageURL}
-          employeeName={item.employeeName}
-          designation={item.designation}
-        />
+      {employees.map((item) => (
+        <div key={item.id}>
+          <ResourceCard
+            imageURL={item.imageURL}
+            employeeName={item.employeeName}
+            designation={item.designation}
+            onClick={props.onClick}
+            id={item.employeeName}
+            className="resource-img-div margin-left-20"
+          />
+
+          {props.clickedName === item.employeeName && <PlanningGraph />}
+        </div>
       ))}
     </div>
   );

@@ -24,7 +24,7 @@ function LeftMenu(props) {
         imageURL={employee.imageURL}
         employeeName={employee.employeeName}
         designation={employee.designation}
-        classname="top-border"
+        className="resource-img-div"
       />
       <LeftMenuList onClick={props.onClick} clickedItem={props.clickedItem} />
     </div>

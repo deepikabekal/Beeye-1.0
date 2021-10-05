@@ -1,6 +1,6 @@
 import { React, useState } from "react";
 import "./Main.css";
-import TeamSection from "./TeamSection";
+import Journaux from "./Journaux";
 import LeftMenu from "./LeftMenu";
 import Task from "./Task";
 import TempPage from "./TempPage";
@@ -21,7 +21,7 @@ function Main() {
       ) : (
         <TempPage name={elementId} calledFrom="leftmenu" />
       )}
-      <TeamSection />
+      <Journaux />
     </div>
   );
 }

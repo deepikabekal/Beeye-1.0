@@ -1,16 +1,17 @@
-import React from "react";
-import PlanningGraph from "./PlanningGraph";
+import { React, useState } from "react";
 import ResourcePlanning from "./ResourcePlanning";
-import Journaux from "./Journaux";
 import Equipe from "./Equipe";
 
 function TeamSection() {
+  const [clickedName, setClickedName] = useState("Gabrielle Chevalier");
+
+  function renderGraph(event) {
+    setClickedName(event.target.id);
+  }
   return (
     <>
-      <Journaux />
-      {/* <Equipe /> */}
-      {/* <PlanningGraph />
-      <ResourcePlanning /> */}
+      <Equipe />
+      <ResourcePlanning onClick={renderGraph} clickedName={clickedName} />
     </>
   );
 }

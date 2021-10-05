@@ -11,7 +11,7 @@ function Equipe() {
     { id: 4, name: "Référence" }
   ];
   return (
-    <div className="equipe-div">
+    <div className="equipe-div div-border">
       <div className="div-border">
         <div className="toggle-btn-bar">
           {toggleBtn.map((item) => (
@@ -37,7 +37,7 @@ function Equipe() {
           un filtre
         </p>
       </div>
-      <div className="nom-div div-border">
+      <div className="nom-div ">
         <p className="nom-p-tag">Nom</p>
       </div>
     </div>
