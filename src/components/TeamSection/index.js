@@ -7,6 +7,7 @@ function TeamSection() {
   return (
     <>
       <Equipe />
+      <ResourcePlanning />
     </>
   );
 }

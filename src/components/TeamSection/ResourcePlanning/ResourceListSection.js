@@ -5,7 +5,7 @@ import employees from "../../employees";
 function ResourceListSection() {
   return (
     <div>
-      {employees.slice(1).map((item) => (
+      {employees.map((item) => (
         <ResourceCard
           key={item.id}
           imageURL={item.imageURL}
