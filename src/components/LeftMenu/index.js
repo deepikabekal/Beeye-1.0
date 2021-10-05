@@ -1,3 +1,8 @@
+//Here the different components of the Left Menu panel section is imported
+//ResourceCard component is used to display the project owner section
+//The onClick and clickediTem props are passed from Main.js file
+//where the state is managed using onClick even
+
 import React from "react";
 import "./LeftMenuStyles.css";
 import TitleBlock from "./TitleBlock";
@@ -11,7 +16,7 @@ function LeftMenu(props) {
     <div>
       <TitleBlock />
 
-      {/* project button section */}
+      {/* project button section ouvert and ferme*/}
       <button className="project-btn open-btn" type="button">
         Ouvert
       </button>

@@ -1,3 +1,6 @@
+//This is data file
+//It has all the data in the for of array which is used to render the tabs using map function
+
 import {
   faFileAlt,
   faCircle,

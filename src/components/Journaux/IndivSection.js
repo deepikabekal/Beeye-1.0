@@ -1,3 +1,11 @@
+// In this component individual sections for each tab of the button bar
+//in the right panel (Journaux) is created
+//Depending on the tab that is clicked their respective sections are displayed
+//If tabName which is passed as props from the JournauxTabSections is equal to Équipe
+//Then TeamSection component is rendered else TempPage component is rendered
+//For all other tabs since there is no design "Page under development" message
+//is displayed using TempPage component
+//journaux string is passed as props to add appropriate style for the temppage.
 import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import TempPage from "../TempPage";
