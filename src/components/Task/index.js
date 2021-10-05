@@ -1,3 +1,5 @@
+// This component renders the Task component
+
 import { React, useState } from "react";
 import "./TaskStyles.css";
 import TaskHeader from "./TaskHeader";

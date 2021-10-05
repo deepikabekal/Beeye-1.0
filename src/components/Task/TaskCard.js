@@ -1,3 +1,6 @@
+// this component creates each task card
+//which is rendered when the + button is clicked
+
 import React from "react";
 
 function TaskCard() {
