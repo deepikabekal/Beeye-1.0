@@ -1,3 +1,10 @@
+// This is a component that contains the message
+//That lets the user know that section or page is under development
+//This component is added in 2 different sections
+//hence the ternary operator is used to render appropriate elements
+//depending on whether the element is added in leftmenu or not
+//calledFrom is passed as props where the component element is added with a string value
+
 import React from "react";
 import "./TempPageStyle.css";
 
