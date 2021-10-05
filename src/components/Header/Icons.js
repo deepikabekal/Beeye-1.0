@@ -1,3 +1,8 @@
+// This component creates all the header icons which are imported from fontawesome
+// The imported icons then stored in a variable navIcons
+// Using map function on navIcons the header element icons are created
+//This component is then rendered in index,js file of the Header folder.
+
 import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {

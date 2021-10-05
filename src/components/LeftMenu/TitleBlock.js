@@ -1,3 +1,6 @@
+// In this component the title block of the left menu section (top part) is created
+// This component is rendered in the index.js file of the LeftMenu folder
+
 import React from "react";
 import { faStar, faArrowRight } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
@@ -12,6 +15,7 @@ function TitleBlock() {
         </div>
         <span className="client-name">Client Name</span>
       </div>
+      {/* debut and fin section */}
       <div className="menu-link-container ">
         <div className="debut-container">
           <span className="link-span">DÉBUT</span>

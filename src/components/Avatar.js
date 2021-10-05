@@ -1,3 +1,6 @@
+// This component creates the avatar for employees image
+//and is then rendered in multiple sections
+
 import React from "react";
 
 function Avatar(props) {

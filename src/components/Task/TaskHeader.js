@@ -1,3 +1,8 @@
+// this component creates the header for the Task section
+// the onClick event is passed as props  from the index.js
+//where this component is rendered.
+//onClick event is for adding TaskCards to the section
+
 import React from "react";
 import { faFileImport, faPlus } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";

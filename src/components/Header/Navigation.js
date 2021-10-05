@@ -1,3 +1,8 @@
+// This component creates the header navigation links.
+// navLinksInfo variable is an array of objects that store the data for each link
+// The links are created using map function on the navLinksInfo array.
+//This component is rendered in index.js of the Header folder
+
 import React from "react";
 
 function Navigation() {

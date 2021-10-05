@@ -1,3 +1,7 @@
+//This component creates the Budget info (right-part) of the TimeSheet section
+//budgetData is an array of the data that needs to be displayed in the section
+//The budget list is created using map function on budgetData array
+
 import React from "react";
 
 function BudgetInfo() {

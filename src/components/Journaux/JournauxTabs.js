@@ -1,3 +1,11 @@
+//In this component button/tabs for the button bar in the Journaux section is created.
+//.map function is used on NamenclatureData array
+//(which contains all the data for the tabs) to render the tabs.
+//Button component is imported and the necessary data is passed in to it to create the buton/tabs
+//Using ternary operator the classNames are passed conditionally
+//If the tabName (clicked) is equal to the array item name
+//then the click-tab-styles class is added which has styles for the button when clicked
+
 import React from "react";
 import Button from "../Button";
 import NomenclatureData from "./NomenclatureData";

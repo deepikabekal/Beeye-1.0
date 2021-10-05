@@ -1,3 +1,9 @@
+// This component creates the employee list/card
+//with employee image, name and designation
+//This component is rendered in LeftMenu component and ResourceListSection component
+//which is below equipe section
+// The data is passed as props from the section where this component is rendered
+
 import React from "react";
 
 function ResourceCard(props) {

@@ -1,3 +1,5 @@
+// This component renders the Task component
+
 import { React, useState } from "react";
 import "./TaskStyles.css";
 import TaskHeader from "./TaskHeader";
@@ -8,9 +10,9 @@ function Task(props) {
   let [isChecked, setChecked] = useState(false); //for select all checkbox click
 
   // This function will be called when the + button is clicked
-  // for every click count will be incremented by 1 and the state change will recorded
+  // for every click, count will be incremented by 1 and the state change will recorded
   // Later count value will be changed to Array.
-  //And using map function on count TaskCard compnent will be render to the Task section
+  //And using map function on count, TaskCard component will be render to the Task section
   function addCard() {
     setCount(count + 1);
   }
