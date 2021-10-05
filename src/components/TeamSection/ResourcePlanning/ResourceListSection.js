@@ -11,6 +11,7 @@ function ResourceListSection() {
           imageURL={item.imageURL}
           employeeName={item.employeeName}
           designation={item.designation}
+          className="resource-img-div margin-left-20"
         />
       ))}
     </div>

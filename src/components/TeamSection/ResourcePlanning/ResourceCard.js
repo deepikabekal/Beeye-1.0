@@ -3,7 +3,7 @@ import React from "react";
 function ResourceCard(props) {
   return (
     <div className="resource-list-div div-border">
-      <div className="resource-img-div">
+      <div className={props.className}>
         <img src={props.imageURL} alt="employee of the company" />
       </div>
       <div className="resource-info-div">

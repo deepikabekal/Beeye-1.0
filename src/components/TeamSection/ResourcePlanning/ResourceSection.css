@@ -8,6 +8,10 @@
   padding: 10px;
 }
 
+.margin-left-20 {
+  margin-left: 20px;
+}
+
 .resource-info-div {
   display: flex;
   flex-direction: column;
