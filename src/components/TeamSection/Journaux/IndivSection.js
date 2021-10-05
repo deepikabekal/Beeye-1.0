@@ -3,7 +3,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import TempPage from "../../TempPage";
 import Equipe from "../Equipe";
 function IndivSection({ item, tabName }) {
-  console.log(item);
+  // console.log(item);
   return (
     <div>
       <div className="button-bar-section pad-left-15 div-border">
