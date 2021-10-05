@@ -1,3 +1,5 @@
+// Array of abjects with all the employees data
+
 const employees = [
   {
     id: 1,
