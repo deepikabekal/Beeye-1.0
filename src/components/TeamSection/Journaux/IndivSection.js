@@ -11,7 +11,9 @@ function IndivSection({ item, tabName }) {
         <span className="tab-section-name">{item.name}</span>
         <span className="tab-section-value">{item.displayValue}</span>
       </div>
-      <div>{tabName === "Équipe" ? <Equipe /> : <TempPage />}</div>
+      <div>
+        {tabName === "Équipe" ? <Equipe /> : <TempPage calledFrom="journaux" />}
+      </div>
     </div>
   );
 }

@@ -9,9 +9,12 @@ function Button(props) {
       className={props.btnClass}
       onClick={props.onClick}
       id={props.id}
-      style={{ cursor: "pointer" }}
     >
-      <FontAwesomeIcon icon={props.icon} className={props.iconClass} />
+      <FontAwesomeIcon
+        icon={props.icon}
+        className={props.iconClass}
+        // onClick={props.onClick}
+      />
       {props.name}
     </button>
   );

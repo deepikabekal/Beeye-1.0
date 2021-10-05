@@ -6,11 +6,11 @@ import "./JournauxStyles.css";
 import { faSync, faPen } from "@fortawesome/free-solid-svg-icons";
 
 function Journaux() {
-  const [clickedBtn, setClickedBtn] = useState("Description");
+  const [clickedBtn, setClickedBtn] = useState("Équipe");
 
   function renderPage(event) {
     setClickedBtn(event.target.id);
-    console.log(event.target.id);
+    // console.log(event.target.id);
   }
 
   return (
@@ -20,7 +20,7 @@ function Journaux() {
         <h2 className="section-heading">Tenue des journaux</h2>
         <Button btnClass="icon-btn" icon={faPen} iconClass="pen-icon-style" />
       </div>
-      <JournauxTabs onClick={renderPage} />
+      <JournauxTabs onClick={renderPage} tabName={clickedBtn} />
       <JournauxTabSections tabName={clickedBtn} />
     </div>
   );

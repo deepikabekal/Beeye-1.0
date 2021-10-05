@@ -89,3 +89,8 @@
 .tab-section-value {
   color: var(--lightGray);
 }
+
+/* style when the tab bar buttons are clicked */
+.click-tab-styles {
+  background-color: white;
+}

@@ -19,7 +19,7 @@ function Main() {
       {elementId === "Tâches" ? (
         <Task name={elementId} />
       ) : (
-        <TempPage name={elementId} />
+        <TempPage name={elementId} calledFrom="leftmenu" />
       )}
       <TeamSection />
     </div>
