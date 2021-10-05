@@ -87,6 +87,13 @@
   border: 1px solid var(--borderColor);
 }
 
+.emp-card-name {
+  font-size: 14px;
+}
+
+.emp-card-desig {
+  font-size: 12px;
+}
 /* left menu list styles */
 
 .menu-list-container {

@@ -16,6 +16,8 @@ function ResourceListSection(props) {
             onClick={props.onClick}
             id={item.employeeName}
             className="resource-img-div margin-left-20"
+            empClass="resource-name"
+            desigClass="resource-desig"
           />
 
           {props.clickedName === item.employeeName && <PlanningGraph />}

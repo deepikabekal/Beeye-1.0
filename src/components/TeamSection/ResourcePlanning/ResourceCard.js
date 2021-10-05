@@ -1,6 +1,8 @@
 import React from "react";
 
 function ResourceCard(props) {
+  const empClass = props.empClass;
+  const desigClass = props.desigClass;
   return (
     <li
       className="resource-list-div div-border"
@@ -11,8 +13,8 @@ function ResourceCard(props) {
         <img src={props.imageURL} alt="employee of the company" />
       </div>
       <div className="resource-info-div">
-        <p className="resource-name">{props.employeeName}</p>
-        <p className="resource-desig">{props.designation}</p>
+        <p className={empClass}>{props.employeeName}</p>
+        <p className={desigClass}>{props.designation}</p>
       </div>
     </li>
   );
