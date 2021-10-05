@@ -1,3 +1,7 @@
+.resource-list-container {
+  border: 1px solid var(--borderColor);
+}
+
 .resource-list-div {
   display: flex;
   align-items: center;

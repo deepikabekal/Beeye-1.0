@@ -6,7 +6,7 @@ import PlanningGraph from "../PlanningGraph";
 function ResourceListSection(props) {
   console.log(props.clickedName);
   return (
-    <div>
+    <div className="resource-list-container">
       {employees.map((item) => (
         <div key={item.id}>
           <ResourceCard
@@ -16,6 +16,8 @@ function ResourceListSection(props) {
             onClick={props.onClick}
             id={item.employeeName}
             className="resource-img-div margin-left-20"
+            empClass="resource-name"
+            desigClass="resource-desig"
           />
 
           {props.clickedName === item.employeeName && <PlanningGraph />}
