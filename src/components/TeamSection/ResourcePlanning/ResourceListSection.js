@@ -1,3 +1,10 @@
+// This component creates the resource list section in the Equipe section
+//employees is an array of employee information objects
+//Using map function on employees each list is created
+//clickedName prop holds the name of the employee that has been clicked
+//if clickedName is equal to employee name of the array item
+//then PlanningGraph component is rendered below the clicked resouce list
+
 import React from "react";
 import ResourceCard from "./ResourceCard";
 import employees from "../../employees";
