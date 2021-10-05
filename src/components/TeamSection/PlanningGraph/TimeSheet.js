@@ -1,3 +1,6 @@
+// This component creates the right section of the Graph (where there is budget)
+// Various components are imported to be rendered as TimeSheet section
+
 import React from "react";
 import Button from "../../Button";
 import BudgetInfo from "./BudgetInfo";
@@ -10,6 +13,7 @@ import {
 function TimeSheet() {
   return (
     <div className="timesheet-section">
+      {/* date scroll section */}
       <div className="timesheet-btn-div">
         <Button
           icon={faChevronLeft}

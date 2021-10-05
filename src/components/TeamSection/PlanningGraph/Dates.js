@@ -1,3 +1,5 @@
+// Array with all the graph data
+
 const dates = [
   {
     date: 28,
