@@ -1,7 +1,7 @@
 import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import TempPage from "../../TempPage";
-import Equipe from "../Equipe";
+import TempPage from "../TempPage";
+import TeamSection from "../TeamSection";
 function IndivSection({ item, tabName }) {
   // console.log(item);
   return (
@@ -12,7 +12,11 @@ function IndivSection({ item, tabName }) {
         <span className="tab-section-value">{item.displayValue}</span>
       </div>
       <div>
-        {tabName === "Équipe" ? <Equipe /> : <TempPage calledFrom="journaux" />}
+        {tabName === "Équipe" ? (
+          <TeamSection id="Equipe" />
+        ) : (
+          <TempPage calledFrom="journaux" />
+        )}
       </div>
     </div>
   );
