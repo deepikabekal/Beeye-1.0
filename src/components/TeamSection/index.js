@@ -5,6 +5,7 @@ import Equipe from "./Equipe";
 
 function TeamSection() {
   const [clickedName, setClickedName] = useState("Gabrielle Chevalier");
+
   function renderGraph(event) {
     setClickedName(event.target.id);
   }

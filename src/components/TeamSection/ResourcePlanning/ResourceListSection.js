@@ -4,6 +4,7 @@ import employees from "../../employees";
 import PlanningGraph from "../PlanningGraph";
 
 function ResourceListSection(props) {
+  console.log(props.clickedName);
   return (
     <div>
       {employees.map((item) => (
@@ -16,6 +17,7 @@ function ResourceListSection(props) {
             id={item.employeeName}
             className="resource-img-div margin-left-20"
           />
+
           {props.clickedName === item.employeeName && <PlanningGraph />}
         </div>
       ))}

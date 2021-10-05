@@ -2,7 +2,11 @@ import React from "react";
 
 function ResourceCard(props) {
   return (
-    <li className="resource-list-div div-border" onClick={props.onClick}>
+    <li
+      className="resource-list-div div-border"
+      onClick={props.onClick}
+      id={props.id}
+    >
       <div className={props.className}>
         <img src={props.imageURL} alt="employee of the company" />
       </div>
