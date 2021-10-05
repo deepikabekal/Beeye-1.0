@@ -6,7 +6,7 @@ import PlanningGraph from "../PlanningGraph";
 function ResourceListSection(props) {
   console.log(props.clickedName);
   return (
-    <div>
+    <div className="resource-list-container">
       {employees.map((item) => (
         <div key={item.id}>
           <ResourceCard
