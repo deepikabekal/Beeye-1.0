@@ -42,7 +42,7 @@ body {
 
 /* rott div style */
 #root {
-  min-width: 800px;
+  min-width: max-content;
 }
 
 .container {

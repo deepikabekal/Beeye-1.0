@@ -3,7 +3,7 @@ import ResourcePlanning from "./ResourcePlanning";
 import Equipe from "./Equipe";
 
 function TeamSection() {
-  const [clickedName, setClickedName] = useState("Gabrielle Chevalier");
+  const [clickedName, setClickedName] = useState("");
 
   function renderGraph(event) {
     setClickedName(event.target.id);
