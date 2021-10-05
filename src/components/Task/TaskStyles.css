@@ -1,9 +1,5 @@
 /* task header styles */
 
-/* .task-container {
-  padding: 10px;
-  width: 250px;
-} */
 .task-header-container {
   height: 56px;
   min-width: 270px;
@@ -49,10 +45,13 @@
   box-shadow: inset 0px 0px 3px rgba(0, 0, 0, 0.1);
   border-radius: 4px;
 }
-/* .check-box:checked{
-  content: 
-} */
+
 /* task card section styles */
+
+.all-task-container {
+  overflow: auto;
+  height: 470px;
+}
 
 .task-card-container {
   display: flex;
