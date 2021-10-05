@@ -62,6 +62,7 @@
 .nomenclature-icon {
   color: var(--baseMed10);
   margin-right: 10px;
+  pointer-events: none;
 }
 
 /* JournauxTabSections styles */

@@ -21,6 +21,7 @@
   width: 30px;
   height: 30px;
   margin: 4px;
+  cursor: pointer;
 }
 
 .graph-btn-icon {
@@ -124,4 +125,5 @@
   padding: 8px 12px;
   color: var(--baseMed10);
   border: 1px solid var(--borderColor);
+  cursor: pointer;
 }

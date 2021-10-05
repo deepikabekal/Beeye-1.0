@@ -7,6 +7,7 @@
 
 .resource-img-div {
   padding: 10px;
+  pointer-events: none;
 }
 
 .margin-left-20 {
@@ -17,6 +18,7 @@
   display: flex;
   flex-direction: column;
   text-align: left;
+  pointer-events: none;
 }
 
 .resource-name {
