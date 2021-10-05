@@ -52,9 +52,11 @@ function Task(props) {
         />
         <label htmlFor="select-all">Sélectionner tout</label>
       </div>
-      {[...Array(count)].map((_, index) => (
-        <TaskCard key={index} />
-      ))}
+      <div className="all-tasks-container">
+        {[...Array(count)].map((_, index) => (
+          <TaskCard key={index} />
+        ))}
+      </div>
     </div>
   );
 }
