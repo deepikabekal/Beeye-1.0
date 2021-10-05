@@ -10,7 +10,11 @@ function ResourceCard(props) {
       id={props.id}
     >
       <div className={props.className}>
-        <img src={props.imageURL} alt="employee of the company" />
+        <img
+          src={props.imageURL}
+          alt="employee of the company"
+          className="pad-left-15"
+        />
       </div>
       <div className="resource-info-div">
         <p className={empClass}>{props.employeeName}</p>
