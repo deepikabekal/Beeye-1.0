@@ -1,5 +1,4 @@
 import { React, useState } from "react";
-import PlanningGraph from "./PlanningGraph";
 import ResourcePlanning from "./ResourcePlanning";
 import Equipe from "./Equipe";
 
