@@ -48,7 +48,7 @@ npm start
 * User story for this project was not provided. Hence some sections are static and some dynamic
 * As far as possible, the components are made dynamic.
 * When the links in the header is clicked, respective name appears in the addressbox.
-* In Left Menu section, the tabs are clickable. When clicked, a section is displayed with the heading same as the tab name and a message stating "Page under development" except for "Tâches" (Tasks). When clicked on "Tâches" tab, "Tâches" section is displayed where you can add tasks by clicking on the + button in the section header. The tasks however appear with predefined value (as provided in the design).
+* In Left Menu section, the tabs are clickable. When clicked, a section is displayed with the heading same as the tab name and a message stating "Page under development" is displayed except for "Tâches" (Tasks) tab. When clicked on "Tâches" tab, "Tâches" section is displayed where you can add tasks by clicking on the + button in the section header. The tasks however appear with predefined value (as provided in the design).
 * When Sélectionner tout (Select All) checkbox is clicked , all the checkboxes get checked and unchecked respectively.
 * In the Tenue des journaux (Keeping of newspapers) section, when any tab (except for "Équipe" (Team)) is clicked, respective section header and a message stating "Page under development" is displayed. When "Équipe" tab is clicked, respective section (as per design) is displayed.
 * At the bottom of the "Équipe" section, a list of team member info appears. When clicked, a graph section is displayed. The graph section content is predefined (as per design) for all the members of the team. 
