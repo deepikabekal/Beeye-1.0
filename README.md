@@ -8,7 +8,7 @@ A Front end page of a Team Management Application.
 * [Deployed App](#deployedapp)
 * [Screenshot](#screenshot)
 * [Installation](#installation)
-* [Techologies Used](#technologiesused)
+* [Technologies Used](#technologiesused)
 * [Functionality](#functionality)
 * [Contributing](#contributing)
 
