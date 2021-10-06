@@ -13,7 +13,7 @@ A Front end page of a Team Management Application.
 * [Contributing](#contributing)
 
 ## Deployed App
-https://csb-obq41.netlify.app/
+https://csb-4neou.netlify.app/
 
 ## Screenshot
 <img src="public/assets/images/screenshot.png" width=650 height = 500>
