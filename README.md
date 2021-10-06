@@ -5,10 +5,10 @@ Created with CodeSandbox
 A Front end page of a Team Management Application.
 
 ## Table of Contents
-* [Deployed App](#deployedapp)
+* [Deployed App](#deployed-app)
 * [Screenshot](#screenshot)
 * [Installation](#installation)
-* [Technologies Used](#technologiesused)
+* [Technologies Used](#technologies-used)
 * [Functionality](#functionality)
 * [Contributing](#contributing)
 
